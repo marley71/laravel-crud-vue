@@ -1,0 +1,34 @@
+{
+    "name": "marley71/laravel-crud-vue",
+    "description": "migration crud-vue.js to Laravel Projects",
+    "keywords": ["crud","js","json","rest","framework", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pier Paolo Ciullo",
+            "email": "ciullo@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/marley71/crud-vue"
+        }
+    ],
+    "require": {
+        "laravel/framework": "5.5.*",
+        "marley71/crud-vue" : "v1.0.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Marley71\\CrudVue\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Marley71\\CrudVue\\CrudVueServiceProvider"
+            ]
+        }
+    }
+}
