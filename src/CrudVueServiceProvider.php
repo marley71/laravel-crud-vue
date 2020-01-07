@@ -46,7 +46,7 @@ class CrudVueServiceProvider extends ServiceProvider {
 
     public function boot() {
         $this->publishes([
-            __DIR__ . '/../crud' => public_path('crud'),
+            base_path('vendor/marley71/crud-vue/dist') => public_path('crud-vue'),
         ], 'public');
 
         //$this->loadRoutesFrom(__DIR__.'/api.php');
