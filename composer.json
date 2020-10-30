@@ -17,7 +17,7 @@
     ],
     "require": {
         "laravel/framework": "^6.0",
-        "marley71/crud-vue" : "v1.0.x-dev"
+        "marley71/crud-vue" : "v1.1.x-dev"
     },
     "autoload": {
         "psr-4": {
