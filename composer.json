@@ -9,9 +9,15 @@
             "email": "ciullo@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/marley71/crud-vue"
+        }
+    ],
     "require": {
         "laravel/framework": "^6.0",
-        "marley71/crud-vue" : "v1.1.*"
+        "marley71/crud-vue" : "v1.1.x-dev"
     },
     "autoload": {
         "psr-4": {
